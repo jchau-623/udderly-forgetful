@@ -1,0 +1,13 @@
+mixin validationErrorSummary(errors)
+  if errors
+    div(id='error-message' role='alert')
+      p Sorry, that wasn't a valid login. Please try again.
+
+mixin field(labelText, fieldName, fieldValue, fieldType = 'text', placeholder = null)
+  div()
+    label(for=fieldName)= labelText
+    if fieldType === 'textarea'
+      textarea(id=fieldName name=fieldName rows='5')= fieldValue
+    else
+      input(type=fieldType id=fieldName name=fieldName value=fieldValue placeholder=placeholder)
+
