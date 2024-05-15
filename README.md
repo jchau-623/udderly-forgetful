@@ -1,6 +1,6 @@
 # Udderly Forgetful
 
-## [Live Link](http://udderly-forgetful.herokuapp.com)
+## [Live Link](https://udderly-forgetful-ba1be5902f80.herokuapp.com/)
 
 Team Project with [Matthew Satterwhite](https://github.com/MatthewSatt), [Steve Correa](https://github.com/scorrea310), [Cody Lavene](https://github.com/codylavene), and [Justin Chau](https://github.com/jchau-623).
 
