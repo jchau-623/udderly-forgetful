@@ -4,9 +4,9 @@ const {
 
 module.exports = {
 	development: {
-		username,
-		password,
-		database,
+		username: 'utterlyapp',
+		password: 'Asians4life',
+		database: 'utterly',
 		host,
 		dialect: "postgres",
 		seederStorage: "sequelize",
